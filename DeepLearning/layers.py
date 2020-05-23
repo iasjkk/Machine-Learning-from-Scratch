@@ -3,8 +3,8 @@ from __future__ import print_function, division
 import math
 import numpy as np
 import copy
-from activation_functions import Sigmoid, ReLU, SoftPlus, LeakyReLU
-from activation_functions import TanH, ELU, SELU, Softmax
+from .activation_functions import Sigmoid, ReLU, SoftPlus, LeakyReLU
+from .activation_functions import TanH, ELU, SELU, Softmax
 
 
 class Layer(object):

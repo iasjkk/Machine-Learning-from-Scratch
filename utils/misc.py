@@ -5,9 +5,9 @@ import matplotlib.cm as cmx
 import matplotlib.colors as colors
 import numpy as np
 
-from mlfromscratch.utils.data_operation import calculate_covariance_matrix
-from mlfromscratch.utils.data_operation import calculate_correlation_matrix
-from mlfromscratch.utils.data_manipulation import standardize
+from utils.data_operation import calculate_covariance_matrix
+from utils.data_operation import calculate_correlation_matrix
+from utils.data_manipulation import standardize
 
 bar_widgets = [
     'Training: ', progressbar.Percentage(), ' ', progressbar.Bar(marker="-", left="[", right="]"),
