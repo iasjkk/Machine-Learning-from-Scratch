@@ -1,4 +1,6 @@
 import numpy as np
+
+# Helper functions
 from utils.data_manipulation import make_diagonal, normalize
 
 # Optimizers for models that use gradient based methods for finding the 

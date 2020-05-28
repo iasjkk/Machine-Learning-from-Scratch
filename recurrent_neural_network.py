@@ -1,7 +1,9 @@
 from __future__ import print_function
 import matplotlib.pyplot as plt
+# %matplotlib inline 
 import numpy as np
 
+# Helper functions
 from DeepLearning import NeuralNetwork
 from utils import train_test_split, to_categorical, normalize, Plot
 from utils import get_random_subsets, shuffle_data, accuracy_score
@@ -11,7 +13,7 @@ from utils.misc import bar_widgets
 from DeepLearning.layers import RNN, Activation
 
 
-def main():
+if __name__ == "__main__":
 
     optimizer = Adam()
 
@@ -84,6 +86,3 @@ def main():
     plt.ylabel('Training Error')
     plt.xlabel('Iterations')
     plt.show()
-
-if __name__ == "__main__":
-    main()

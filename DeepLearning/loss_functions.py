@@ -1,5 +1,7 @@
 from __future__ import division
 import numpy as np
+
+# Helper functions
 from utils.data_operation import accuracy_score
 from .activation_functions import Sigmoid
 

@@ -2,10 +2,11 @@
 from __future__ import print_function
 from sklearn import datasets
 import matplotlib.pyplot as plt
+# %matplotlib inline 
 import math
 import numpy as np
 
-# Import helper functions
+# Helper functions
 from DeepLearning import NeuralNetwork
 from utils import train_test_split, to_categorical, normalize
 from utils import get_random_subsets, shuffle_data, Plot
@@ -18,11 +19,11 @@ from DeepLearning.layers import AveragePooling2D, ZeroPadding2D, BatchNormalizat
 
 
 
-def main():
+if __name__ == "__main__":
 
-    #----------
-    # Conv Net
-    #----------
+    '''
+    2-D Convolutional Neural Network
+    '''
 
     optimizer = Adam()
 
@@ -82,6 +83,3 @@ def main():
     X_test = X_test.reshape(-1, 8*8)
     # Reduce dimension to 2D using PCA and plot the results
     Plot().plot_in_2d(X_test, y_pred, title="Convolutional Neural Network", accuracy=accuracy, legend_labels=range(10))
-
-if __name__ == "__main__":
-    main()

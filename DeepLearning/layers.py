@@ -3,6 +3,8 @@ from __future__ import print_function, division
 import math
 import numpy as np
 import copy
+
+# Helper functions
 from .activation_functions import Sigmoid, ReLU, SoftPlus, LeakyReLU
 from .activation_functions import TanH, ELU, SELU, Softmax
 
