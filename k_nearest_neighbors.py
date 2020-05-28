@@ -3,9 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import datasets
 
-from utils.data_manipulation import train_test_split, normalize
-from utils.data_operation import euclidean_distance, accuracy_score
-from utils.misc import Plot
+from data_helper import train_test_split, normalize
+from data_helper import euclidean_distance, accuracy_score
+from data_helper import Plot
 from supervisedLearning import KNN
 
 

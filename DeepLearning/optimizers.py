@@ -1,7 +1,7 @@
 import numpy as np
 
 # Helper functions
-from utils.data_manipulation import make_diagonal, normalize
+from data_helper.pre_processing import make_diagonal, normalize
 
 # Optimizers for models that use gradient based methods for finding the 
 # weights that minimizes the loss.

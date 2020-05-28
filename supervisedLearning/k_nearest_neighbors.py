@@ -1,6 +1,6 @@
 from __future__ import print_function, division
 import numpy as np
-from utils.data_operation import euclidean_distance
+from data_helper import euclidean_distance
 
 class KNN():
     """ K Nearest Neighbors classifier has no model other than storing the entire dataset, so there is no learning required..

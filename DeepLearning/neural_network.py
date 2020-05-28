@@ -4,8 +4,8 @@ import numpy as np
 import progressbar
 
 # Helper functions
-from utils.data_manipulation import batch_iterator
-from utils.misc import bar_widgets
+from data_helper.pre_processing import batch_iterator
+from data_helper.my_plot import bar_widgets
 
 
 class NeuralNetwork():

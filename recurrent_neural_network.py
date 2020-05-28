@@ -5,11 +5,11 @@ import numpy as np
 
 # Helper functions
 from DeepLearning import NeuralNetwork
-from utils import train_test_split, to_categorical, normalize, Plot
-from utils import get_random_subsets, shuffle_data, accuracy_score
+from data_helper import train_test_split, to_categorical, normalize, Plot
+from data_helper import get_random_subsets, shuffle_data, accuracy_score
 from DeepLearning.optimizers import StochasticGradientDescent, Adam, RMSprop, Adagrad, Adadelta
 from DeepLearning.loss_functions import CrossEntropy
-from utils.misc import bar_widgets
+from data_helper.my_plot import bar_widgets
 from DeepLearning.layers import RNN, Activation
 
 

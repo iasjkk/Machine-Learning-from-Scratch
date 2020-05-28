@@ -1,6 +1,6 @@
 from __future__ import print_function, division
 import numpy as np
-from utils.data_operation import calculate_covariance_matrix
+from data_helper import calculate_covariance_matrix
 
 
 class PCA():
