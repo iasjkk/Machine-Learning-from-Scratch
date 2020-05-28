@@ -1,2 +1,6 @@
 # Machine-Learning-from-Scratch
-Machine learning algorithms are implemented from scratch in python3.x
+
+The machine learning algorithms are are implemeted from scratch. The implementation is having three sections:
+  - Supervised Learning
+  - Unsupervised Learning
+  - Deep Learning
